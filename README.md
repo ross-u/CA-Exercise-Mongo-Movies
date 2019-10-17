@@ -20,6 +20,10 @@ Using `mongoimport`, import the JSON data from the `movies.json` file into the c
 
 
 
+<br>
+
+
+
 ### Linux
 
 ```bash
@@ -36,8 +40,7 @@ mongoimport --db video --collection movies --file movies.json --jsonArray
 mongo
 ```
 
-
-
+<br>
 
 
 ### Mac
@@ -57,8 +60,7 @@ mongoimport --db video --collection movies --file movies.json --jsonArray
 mongo
 ```
 
-
-
+<br>
 
 
 #### ... continued (Mac & Linux)
