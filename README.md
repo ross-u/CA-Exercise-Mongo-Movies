@@ -66,16 +66,16 @@ mongo
 #### ... continued (Mac & Linux)
 
 ```js
-# List databases
+// List databases
 show dbs
 
-# Switch to database `video`
+// Switch to database `video`
 use video
 
-# Show collections
+// Show collections
 show collections
 
-# List all the documents in the `movies` collection
+// List all the documents in the `movies` collection
 db.movies.find().pretty()
 ```
 
