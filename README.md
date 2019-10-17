@@ -16,9 +16,27 @@ When working with any Database, there are a few operations that we will always n
 
 ## Getting Started
 
+<br>
+
+
+
+### Fork and Clone the repo
+
+```bash
+git clone https://github.com/ross-u/Code-Along-Mongo-Movies
+
+cd Code-Along-Mongo-Movies
+```
+
+
+
+<br>
+
+
+
+### Import the data via `mongoimport`
+
 Using `mongoimport`, import the JSON data from the `movies.json` file into the collection `movies` in the `video` database.
-
-
 
 <br>
 
