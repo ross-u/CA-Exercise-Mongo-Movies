@@ -34,7 +34,7 @@ cd Code-Along-Mongo-Movies
 
 
 
-### Import the data via `mongoimport`
+### Import the data via [`mongoimport`](https://docs.mongodb.com/manual/reference/program/mongoimport/)
 
 Using `mongoimport`, import the JSON data from the `movies.json` file into the collection `movies` in the `video` database.
 
