@@ -28,17 +28,14 @@ git clone https://github.com/ross-u/CA-Exercise-Mongo-Movies.git
 cd CA-Exercise-Mongo-Movies
 ```
 
-
-
 <br>
 
 
+### Start the MongoDB
 
-### Import the data via [`mongoimport`](https://docs.mongodb.com/manual/reference/program/mongoimport/)
+If you already have your MongoDB running, you can skip this step.
 
-Using `mongoimport`, import the JSON data from the `movies.json` file into the collection `movies` in the `video` database.
-
-<br>
+Additionaly, **remember to check if your MongoDB is running every time you restart your machine and start it if needed running the below commands.**
 
 
 
@@ -50,15 +47,8 @@ sudo service mongod start
 
 # Check if mongod process is running
 ps -e | grep 'mongod'
-
-# Import the data from `movies.json` to the `movies` database
-mongoimport --db video --collection movies --file movies.json --jsonArray
-
-# Run mongo shell
-mongo
 ```
 
-<br>
 
 
 ### Mac
@@ -69,19 +59,41 @@ brew services start mongodb-community
 
 # Check if mongod process is running
 ps -e | grep 'mongod'
-
-
-# Import the data from `movies.json` to the `movies` database
-mongoimport --db video --collection movies --file movies.json --jsonArray
-
-# Run mongo shell
-mongo
 ```
+
+
+
+
 
 <br>
 
 
-#### ... continued (Mac & Linux)
+
+### Import the data via `mongoimport`
+
+Using the terminal navigate to the directory of the cloned repo on your system. Then using `mongoimport`, import the JSON data to the database `video`. Import the data from the `movies.json` file into the collection `movies`.
+
+```bash
+# Import the data from `movies.json` to the `video` database, collection `movies`
+mongoimport --db=video --collection=movies --file=movies.json --jsonArray
+```
+
+
+
+<br>
+
+
+
+### Open the `mongo` shell
+
+```bash
+# Run mongo shell
+mongo
+```
+
+
+
+#### In the `mongo` shell:
 
 ```js
 // List databases
@@ -97,10 +109,7 @@ show collections
 db.movies.find().pretty()
 ```
 
-
-
 <br>
-
 
 
 ## Tasks
