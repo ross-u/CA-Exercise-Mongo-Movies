@@ -111,6 +111,13 @@ db.movies.find().pretty()
 
 <br>
 
+## Reference
+
+You may use the following Lecture Notes as your reference:
+
+### [MongoDB - Lecture Notes](https://gist.github.com/ross-u/cf1f144c7706610e9f70c2700f8b391d)
+
+<br>
 
 ## Tasks
 
