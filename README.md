@@ -1,4 +1,4 @@
-# Code Along - MongoDB Movies
+# Exercise - MongoDB Movies
 
  
 
