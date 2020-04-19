@@ -23,9 +23,9 @@ When working with any Database, there are a few operations that we will always n
 ### Fork and Clone the repo
 
 ```bash
-git clone https://github.com/ross-u/Code-Along-Mongo-Movies
+git clone https://github.com/ross-u/CA-Exercise-Mongo-Movies.git
 
-cd Code-Along-Mongo-Movies
+cd CA-Exercise-Mongo-Movies
 ```
 
 
