@@ -461,7 +461,7 @@ let moviesToDelete = ["12 Angry Men", "Se7en", "Cidade de Deus", "Braveheart"]
 **<u>Your query</u>**:
 
 ```js
-
+db.movies.deleteMany( { title: { $in: moviesToDelete } } )
 ```
 
 
