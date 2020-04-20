@@ -265,7 +265,7 @@ To specify an **`ObjectId`** type, use the format **`ObjectId(’id’)`**,
 
 
 
-### 11. Retrieve all documents from the `movies` collection including only `title` field , using and sort them by `name` 
+### 11. Retrieve all documents from the `movies` collection including only the field `title` using projection and sorting them by `name`.
 
 **<u>Your query</u>**:
 
