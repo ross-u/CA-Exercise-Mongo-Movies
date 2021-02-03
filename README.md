@@ -35,32 +35,7 @@ cd CA-Exercise-Mongo-Movies
 
 If you already have your MongoDB running, you can skip this step.
 
-Additionaly, **remember to check if your MongoDB is running every time you restart your machine and start it if needed running the below commands.**
-
-
-
-### Linux
-
-```bash
-# Run mongod
-sudo service mongod start
-
-# Check if mongod process is running
-ps -e | grep 'mongod'
-```
-
-
-
-### Mac
-
-```bash
-# Run mongodb
-brew services start mongodb-community
-
-# Check if mongod process is running
-ps -e | grep 'mongod'
-```
-
+Additionaly, **remember to check if your MongoDB is running every time you restart your machine and start it if needed.**
 
 
 
